@@ -8,13 +8,24 @@ body{
     background: radial-gradient(52.52% 39.17% at 50% 66.95%, #F3F3F3 0%, #FFFFFF 100%);
     font-family: 'Poppins';
 }
+*::-webkit-scrollbar{
+    width: 6px;
+    height: 2px;
+}
+*::-webkit-scrollbar-thumb{
+
+    background: #66507786;
+    border-radius: 6px;
+}
+
 header{
     background: #926FF6;
 }
 .container{
-    max-width: 931px;
+    max-width: 961px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
     
 }
 .header_container{
@@ -85,40 +96,55 @@ background: red;
 main{
     margin-top: 170px;
 }
-.videos{
+.video{
+    margin-top: 164px;
+    
+}
+.cards_1{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 105px;
 }
-.deck{
+
+
+.desc{
     max-width: 420px;
     width: 100%;
 }
-.video_title{
-    margin-top: 15px;
-    color: #4f4f4f;
-    font-size: 24px;
-    margin-bottom: 21px;
-}
+
 .video_txt{
-    color: #FFE074;
-    font-size: 12px;
-    font-weight: bold;
+    color:  #FFAE00;
+    font-size: 13px;
 }
+
+.video_title{
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
 .video_txt_2{
-    color: #4f4f4f;
     font-size: 16px;
+    margin-bottom: 39px;
 }
+
+
+
+
 .play_video{
     display: flex;
     align-items: center;
-    margin-top: 38px;
-    margin-left: 5px;
 }
+
+
+.logo_1{
+    width: 30px;
+}
+
 .span{
-    margin-left: 15px;
-    color: #f3849f;
-    font-weight: bold;
-    font-size: 16px;
+   
+    color: #F3849F;
+    text-transform: uppercase;
 }
 
 .tables{
@@ -196,6 +222,7 @@ main{
 .cards{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .card{
     max-width: 290px;
