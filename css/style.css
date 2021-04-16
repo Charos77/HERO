@@ -84,12 +84,7 @@ header{
     font-size: 17px;
     margin-bottom: 43px;
 }
-.button{
-    transition: 0.5s;
-}
-.button:hover{
-background: red;
-}
+
 /* headewr end */  
 
 /* main start */

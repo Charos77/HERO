@@ -10,10 +10,13 @@
         scroll-snap-type: x mandatory;
         overflow: hidden;
         overflow-x: auto;
+        gap: 15px;
+
     }
     .card{
         scroll-snap-align:  center;
         flex-shrink: 0;
+
     }
     .catal__img{
         width: 100%;
@@ -23,7 +26,7 @@
     }
     .section_bottom{
         margin-top: 100px;
-        padding: 0;
+        padding: 25px 0;
     }
     .video_title{
         font-size: 18px;
@@ -43,6 +46,15 @@
     .footer{
         padding-top: 50px;
         padding-bottom: 0;
+    }
+    .bottom_title_2{
+        text-align: center;
+    }
+    .bottom_title_3{
+        text-align: center;
+    }
+    .bottom_title_4{
+        text-align: center;
     }
 }
 /* @media (max-width: 736px) {} */
@@ -140,5 +152,11 @@
 @media (max-width: 320px) {
     .header_title{
         font-size: 35px;
+    }
+    .footer_txt{
+        font-size: 11px;
+    }
+    main{
+        margin-top: -70px;
     }
 }
